@@ -1,0 +1,17 @@
+__pycache__/
+.venv/
+.DS_Store
+.env
+data/
+runs/
+*.npz
+!study_data/*.npz
+*.xlsx
+*.pt
+*.pth
+*.joblib
+predictions.csv
+mosquito_predictions.csv
+training_loss.csv
+metrics.json
+diagnostics/

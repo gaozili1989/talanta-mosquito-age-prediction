@@ -1,0 +1,95 @@
+{
+  "datasets": {
+    "culex.npz": {
+      "sha256": "6a41aee0bd71e4f1349a82d1f8d3f1dbf44a1ab657a6e15f14b10f8363e293b9",
+      "n_spectra": 900,
+      "n_features": 1764,
+      "n_spectra_per_age": [
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "ages_days": [
+        0,
+        7,
+        14,
+        21,
+        28
+      ],
+      "mosquito_ids_available": false,
+      "source_split1_sha256": "c527db6ae14318431e7947ecae08e85ad5b228d7d686b2f10545a20e6bea27bd"
+    },
+    "lakewood.npz": {
+      "sha256": "56c4056f752905d4b98214b4a5d09291694555a9d46c51389ad674d72732fd92",
+      "n_spectra": 1290,
+      "n_features": 1763,
+      "n_spectra_per_age": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        210
+      ],
+      "ages_days": [
+        1,
+        7,
+        10,
+        14,
+        21,
+        28,
+        35
+      ],
+      "mosquito_ids_available": false,
+      "source_split1_sha256": "295fea39b9e735d0ebab102b067723dafce0a6c8dfb3b26a4d634f8f8a79869e"
+    },
+    "thai-sonication.npz": {
+      "sha256": "78f33fae492262c16a5395326ff51ae2455f8748c931d2baba2b536f8b80ad5b",
+      "n_spectra": 530,
+      "n_features": 1765,
+      "n_spectra_per_age": [
+        190,
+        170,
+        170
+      ],
+      "ages_days": [
+        3,
+        10,
+        18
+      ],
+      "mosquito_ids_available": false,
+      "source_split1_sha256": "cc57e9dc03201efde1b66fc86010cd5d06ff65a7a6c149f0b155ec7d241e5ffa"
+    },
+    "thai-bead.npz": {
+      "sha256": "70416319775350927a8139e13ad47c0657a9a25596202c30013c53528fbe9584",
+      "n_spectra": 600,
+      "n_features": 1765,
+      "n_spectra_per_age": [
+        200,
+        200,
+        200
+      ],
+      "ages_days": [
+        3,
+        10,
+        18
+      ],
+      "mosquito_ids_available": false,
+      "source_split1_sha256": "68d750d37395a47ab97bb7edd98e73f9cd1064d8d477191efbf38d356361aeba"
+    }
+  },
+  "source_workbooks": {
+    "Fig4_Ae_aegypti_TH-origin_Bead_Disruption_Raw_Spectra.xlsx": "b2adacf03e555f9455fa431eae29ca340258c096338c2768cb081ad58a0dcb63",
+    "Fig4_Ae_aegypti_TH-origin_Sonication_Raw_Spectra.xlsx": "a349e64c750725ba86c7ab4ba9373b824a4b4ca4df680ba293ccfcf09be247a3",
+    "Fig5_Cx_tarsalis_KNWR_Colony_Raw_Spectra.xlsx": "2fbe3cbd9117f811e708ea6f658621739d8a0de94537e3425b0ce149907a38b3",
+    "Fig6_Ae_aegypti_Lakewood_Colony_Raw_Spectra.xlsx": "25006bebff36b0bbca87bb1deaad2f2d03b4135350e4402761ba9a89a5b0c594"
+  },
+  "regression_partition_plan": {
+    "file": "regression_partitions.json",
+    "sha256": "c6b71b0b5a14a0293291e244dce70c4e9eb561f19305175a36316e5d027613af",
+    "description": "Regression partition index file."
+  }
+}
